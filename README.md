@@ -4,7 +4,7 @@ bezier-approx
 Small library that allows to approximate cubic Bezier curves with a number of 
 quadratic Bezier curves. 
 
-Algorith
+Algorithm
 ---------
 The algorithm it uses is following: 
  * split quadratic curve into _k_ segments
