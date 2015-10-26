@@ -8,7 +8,7 @@ Algorith
 ---------
 The algorithm it uses is following: 
  * split quadratic curve into _k_ segments
- * approximate each segment using Generic Midpoint approach (which is described i.e. [here](http://www.timotheegroleau.com/Flash/articles/cubic_bezier_in_flash.htm)
+ * approximate each segment using Generic Midpoint approach (which is described i.e. [here](http://www.timotheegroleau.com/Flash/articles/cubic_bezier_in_flash.htm))
  * check is the approximation good enough evaluating distance between cubic segment and quadratic approximation in 10 points and using the largest distance as a error
  * if error is small enough stop, otherwise increase _k_ and repeat until _k_ exceeds maximum number of segments
 
