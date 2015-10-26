@@ -1,0 +1,24 @@
+{
+  "name": "bezier-approx",
+  "version": "1.0.0",
+  "description": "Approximate cubic Bezier curive with number of quadratic ones",
+  "keywords": [
+    "beier",
+    "cubic2quad"
+  ],
+  "license": "MIT",
+  "repository": "a-rodin/bezier-approx",
+  "main": "./lib/bezier-approx.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "devDependencies": {
+    "ansi": "*",
+    "benchmark": "*",
+    "coveralls": "~2.11.2",
+    "eslint": "0.19.0",
+    "eslint-plugin-nodeca": "~1.0.3",
+    "istanbul": "*",
+    "mocha": "*"
+  }
+}
